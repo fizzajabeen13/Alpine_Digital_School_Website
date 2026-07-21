@@ -159,14 +159,17 @@ http://localhost:3000
 
 # 📸 Screenshots
 
-```
-/screenshots
-    homepage.png
-    about.png
-    academics.png
-    faculty.png
-    gallery.png
-    contact.png
+```text
+screenshots/
+├── Homepage.png
+├── About_Us.png
+├── Academics.png
+├── Faculty.png
+├── Gallery.png
+├── Admissions.png
+├── NoticeCards.png
+├── Responsive.png
+└── Footer.png
 ```
 
 ---
