@@ -157,7 +157,7 @@ export const featuredDeveloper = {
 
   department: "IT Department",
 
-  image: "/images/faculty/fizza.png",
+  image: "/images/faculty/faculty-gallery/fizza-1.png",
 
   qualification: [
     "BS Computer Science",
