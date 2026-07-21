@@ -178,7 +178,7 @@ http://localhost:3000
 ![Admissions](screenshots/Admissions.PNG)
 
 ### 📢 Notice Cards
-![Notice Cards](screenshots/NoticeCards.PNG)
+![Notice Cards](screenshots/Notice_Cards.PNG)
 
 ### 📱 Responsive Design
 ![Responsive](screenshots/Responsive.PNG)
