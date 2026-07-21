@@ -1,0 +1,136 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #0f172a;
+
+  --primary: #0f3d5e;
+  --primary-dark: #082f49;
+  --secondary: #c89b3c;
+  --muted: #64748b;
+
+  --card: #ffffff;
+  --border: #e2e8f0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-inter), Arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-playfair), serif;
+}
+
+button,
+a {
+  transition: all 0.2s ease;
+}
+
+button {
+  cursor: pointer;
+}
+
+::selection {
+  background: var(--secondary);
+  color: white;
+}
+
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Premium animated gradient */
+.premium-gradient {
+  background: linear-gradient(135deg, #020617, #0f172a, #1d4ed8, #ca8a04);
+  background-size: 300% 300%;
+  animation: gradientMove 12s ease infinite;
+}
+
+/* Glassmorphism */
+.glass-card {
+  border: 1px solid rgb(255 255 255 / 0.12);
+  background: rgb(255 255 255 / 0.1);
+  box-shadow: 0 25px 80px rgb(0 0 0 / 0.25);
+  backdrop-filter: blur(20px);
+}
+
+/* Premium hover */
+.premium-hover {
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease,
+    background 0.3s ease;
+}
+
+.premium-hover:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 25px 60px rgb(15 23 42 / 0.18);
+}
+
+/* Floating animation */
+@keyframes floatSoft {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-14px);
+  }
+}
+
+.float-soft {
+  animation: floatSoft 5s ease-in-out infinite;
+}
+
+/* Skill bar animation */
+.skill-bar {
+  animation: skillFill 1.2s ease forwards;
+}
+
+@keyframes skillFill {
+  from {
+    width: 0%;
+  }
+}
+
+/* Premium section glow */
+.premium-glow {
+  position: relative;
+}
+
+.premium-glow::before {
+  position: absolute;
+  inset: -1px;
+  z-index: -1;
+  border-radius: inherit;
+  background: linear-gradient(135deg, rgb(37 99 235 / 0.45), rgb(202 138 4 / 0.45));
+  content: "";
+  filter: blur(20px);
+  opacity: 0.65;
+}
+
+
