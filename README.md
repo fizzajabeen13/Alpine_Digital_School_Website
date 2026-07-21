@@ -157,20 +157,34 @@ http://localhost:3000
 
 ---
 
-# 📸 Screenshots
+## 📸 Screenshots
 
-```text
-screenshots/
-├── Homepage.png
-├── About_Us.png
-├── Academics.png
-├── Faculty.png
-├── Gallery.png
-├── Admissions.png
-├── NoticeCards.png
-├── Responsive.png
-└── Footer.png
-```
+### 🏠 Homepage
+![Homepage](screenshots/Homepage.png)
+
+### 📖 About Us
+![About](screenshots/About_Us.png)
+
+### 🎓 Academics
+![Academics](screenshots/Academics.png)
+
+### 👨‍🏫 Faculty
+![Faculty](screenshots/Faculty.png)
+
+### 🖼️ Gallery
+![Gallery](screenshots/Gallery.png)
+
+### 📝 Admissions
+![Admissions](screenshots/Admissions.png)
+
+### 📢 Notice Cards
+![Notice Cards](screenshots/NoticeCards.png)
+
+### 📱 Responsive Design
+![Responsive](screenshots/Responsive.png)
+
+### 🌙 Footer
+![Footer](screenshots/Footer.png)
 
 ---
 
