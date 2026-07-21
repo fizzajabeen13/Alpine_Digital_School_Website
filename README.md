@@ -160,31 +160,31 @@ http://localhost:3000
 ## 📸 Screenshots
 
 ### 🏠 Homepage
-![Homepage](screenshots/Homepage.png)
+![Homepage](screenshots/Homepage.PNG)
 
 ### 📖 About Us
-![About](screenshots/About_Us.png)
+![About](screenshots/About_Us.PNG)
 
 ### 🎓 Academics
-![Academics](screenshots/Academics.png)
+![Academics](screenshots/Academics.PNG)
 
 ### 👨‍🏫 Faculty
-![Faculty](screenshots/Faculty.png)
+![Faculty](screenshots/Faculty.PNG)
 
 ### 🖼️ Gallery
-![Gallery](screenshots/Gallery.png)
+![Gallery](screenshots/Gallery.PNG)
 
 ### 📝 Admissions
-![Admissions](screenshots/Admissions.png)
+![Admissions](screenshots/Admissions.PNG)
 
 ### 📢 Notice Cards
-![Notice Cards](screenshots/NoticeCards.png)
+![Notice Cards](screenshots/NoticeCards.PNG)
 
 ### 📱 Responsive Design
-![Responsive](screenshots/Responsive.png)
+![Responsive](screenshots/Responsive.PNG)
 
 ### 🌙 Footer
-![Footer](screenshots/Footer.png)
+![Footer](screenshots/Footer.PNG)
 
 ---
 
