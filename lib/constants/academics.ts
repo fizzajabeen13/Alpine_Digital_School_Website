@@ -15,7 +15,7 @@ export const academicsHero = {
   title: "A Future-Ready Academic Experience",
   description:
     "Our academic system combines strong subject knowledge, practical learning, values, communication skills, STEM, robotics, AI awareness, and student confidence.",
-  image: "/images/hero/academic_hero.png",
+  image: "/images/hero/academic_hero.webp",
 };
 
 export const academicPrograms = [
@@ -45,7 +45,7 @@ export const academicPrograms = [
       "Prepares children for primary education",
       "Promotes independence and positive learning habits",
     ],
-    image: "/images/gallery/pre_school.png",
+    image: "/images/gallery/pre_school.webp",
   },
 {
   icon: BookOpen,
@@ -72,7 +72,7 @@ export const academicPrograms = [
     "Development of teamwork, leadership, and responsibility",
     "Preparation for secondary education and future success",
     ],
-    image: "/images/gallery/junior_school.png",
+    image: "/images/gallery/junior_school.webp",
   },
   {
   icon: GraduationCap,
@@ -100,7 +100,7 @@ export const academicPrograms = [
     "Career awareness and informed academic planning",
     "Confidence, leadership, and readiness for higher education",
     ],
-    image: "/images/gallery/senior_school.png",
+    image: "/images/gallery/senior_school.webp",
   },
 ];
 
@@ -138,7 +138,7 @@ export const departmentsData = [
         "STEM",
         "Robotics",
       ],
-      image: "/images/faculty/Fizza.png",
+      image: "/images/faculty/Fizza.webp",
     },
     {
       name: "Saira Zahid",
@@ -150,7 +150,7 @@ export const departmentsData = [
         "Engineering Design",
         "Project-Based Learning",
       ],
-      image: "/images/faculty/SairaZahid.png",
+      image: "/images/faculty/SairaZahid.webp",
     },
     {
       name: "Saira Aslam",
@@ -162,14 +162,14 @@ export const departmentsData = [
         "Arduino",
         "Electronics",
       ],
-      image: "/images/faculty/SairaAslam.png",
+      image: "/images/faculty/SairaAslam.webp",
     },
   ],
 
   gallery: [
-    "/images/gallery/IT_1.png",
-    "/images/gallery/IT_2.png",
-    "/images/gallery/IT_3.png",
+    "/images/gallery/IT_1.webp",
+    "/images/gallery/IT_2.webp",
+    "/images/gallery/IT_3.webp",
   ],
 
   activities: [
@@ -207,7 +207,7 @@ export const departmentsData = [
         qualification: "BS Biotechnology",
         experience: "3+ Years",
         subjects: ["Chemistry", "Biology"],
-        image: "/images/faculty/Mahpara.png",
+        image: "/images/faculty/Mahpara.webp",
       },
       {
         name: "Iqra Munawar",
@@ -215,7 +215,7 @@ export const departmentsData = [
         qualification: "M.Phill Analytical Chemistry",
         experience: "2+ Years",
         subjects: ["Chemistry", "Science"],
-        image: "/images/faculty/Iqra.png",
+        image: "/images/faculty/Iqra.webp",
       },
       {
         name: "Maryam Fatima",
@@ -223,13 +223,13 @@ export const departmentsData = [
         qualification: "M.Sc. Botany",
         experience: "1 Year",
         subjects: ["Biology", "General Science"],
-        image: "/images/faculty/Maryam.png",
+        image: "/images/faculty/Maryam.webp",
       },
     ],
     gallery: [
-      "/images/gallery/Science_1.png",
-      "/images/gallery/Science_2.png",
-      "/images/gallery/Science_3.png",
+      "/images/gallery/Science_1.webp",
+      "/images/gallery/Science_2.webp",
+      "/images/gallery/Science_3.webp",
     ],
     activities: [
       "Science experiments",
@@ -261,7 +261,7 @@ export const departmentsData = [
         qualification: "M.Sc Mathematics",
         experience: "12+ Years",
         subjects: ["Mathematics", "Algebra"],
-        image: "/images/faculty/Yasir.png",
+        image: "/images/faculty/Yasir.webp",
       },
       {
         name: "Rashida Bashir",
@@ -269,13 +269,13 @@ export const departmentsData = [
         qualification: "M.Phill Mathematics",
         experience: "2+ Years",
         subjects: ["Mathematics", "Algebra"],
-        image: "/images/faculty/Rashida.png",
+        image: "/images/faculty/Rashida.webp",
       },
     ],
     gallery: [
-      "/images/gallery/Math_1.png",
-      "/images/gallery/Math_2.png",
-      "/images/gallery/Math_3.png",
+      "/images/gallery/Math_1.webp",
+      "/images/gallery/Math_2.webp",
+      "/images/gallery/Math_3.webp",
     ],
     activities: [
       "Mental math practice",
@@ -307,7 +307,7 @@ export const departmentsData = [
         qualification: "M.A English, B.Edu",
         experience: "10+ Years",
         subjects: ["Spoken English", "Communication Skills"],
-        image: "/images/faculty/Kaleem.png",
+        image: "/images/faculty/Kaleem.webp",
       },
       {
         name: "Mehwish Khalid",
@@ -315,13 +315,13 @@ export const departmentsData = [
         qualification: "BS English Literature",
         experience: "2+ Years",
         subjects: ["Spoken English", "Communication Skills"],
-        image: "/images/faculty/Mehwish.png",
+        image: "/images/faculty/Mehwish.webp",
       },
     ],
     gallery: [
-      "/images/gallery/Spoken_English_1.png",
-      "/images/gallery/Spoken_English_2.png",
-      "/images/gallery/Spoken_English_3.png",
+      "/images/gallery/Spoken_English_1.webp",
+      "/images/gallery/Spoken_English_2.webp",
+      "/images/gallery/Spoken_English_3.webp",
     ],
     activities: [
       "Conversation practice",
@@ -353,13 +353,13 @@ export const departmentsData = [
         qualification: "BS English",
         experience: "3+ Years",
         subjects: ["English Grammar", "Creative Writing"],
-        image: "/images/faculty/Asima.png",
+        image: "/images/faculty/Asima.webp",
       },
     ],
     gallery: [
-      "/images/gallery/English_1.png",
-      "/images/gallery/English_2.png",
-      "/images/gallery/English_3.png",
+      "/images/gallery/English_1.webp",
+      "/images/gallery/English_2.webp",
+      "/images/gallery/English_3.webp",
     ],
     activities: [
       "Reading sessions",
@@ -391,13 +391,13 @@ export const departmentsData = [
         qualification: "MA Urdu, B.Ed",
         experience: "7+ Years",
         subjects: ["Urdu", "Poetry"],
-        image: "/images/faculty/Aqsa.png",
+        image: "/images/faculty/Aqsa.webp",
       },
     ],
     gallery: [
-      "/images/gallery/Urdu_1.png",
-      "/images/gallery/Urdu_2.png",
-      "/images/gallery/Urdu_3.png",
+      "/images/gallery/Urdu_1.webp",
+      "/images/gallery/Urdu_2.webp",
+      "/images/gallery/Urdu_3.webp",
     ],
     activities: [
       "Urdu speeches",

@@ -169,7 +169,7 @@ export default function SchoolVideo() {
                   className="h-full w-full object-cover"
                   controls
                   preload="metadata"
-                  poster="/images/gallery/Campus_Tour.png"
+                  poster="/images/gallery/Campus_Tour.webp"
                 >
                   <source
                     src="/videos/Campus_Tour.mp4"

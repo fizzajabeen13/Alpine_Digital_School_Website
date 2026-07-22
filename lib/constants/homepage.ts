@@ -12,7 +12,7 @@ export const heroSlides = [
     subtitle: "Where Excellence Meets Future-Ready Learning",
     description:
       "A premium learning environment focused on academics, character building, STEM, robotics, AI, and digital skills.",
-    image: "/images/hero/home_hero_1.png",
+    image: "/images/hero/home_hero_1.webp",
     primaryCta: {
       label: "Apply Now",
       href: "/admissions",
@@ -28,7 +28,7 @@ export const heroSlides = [
     subtitle: "Academic Excellence With Innovation",
     description:
       "Our students learn through modern classrooms, skilled teachers, practical projects, competitions, and real-world exposure.",
-    image: "/images/hero/home_hero_2.png",
+    image: "/images/hero/home_hero_2.webp",
     primaryCta: {
       label: "View Academics",
       href: "/academics",
@@ -44,7 +44,7 @@ export const heroSlides = [
     subtitle: "Skills for the Digital Future",
     description:
       "From science exhibitions to robotics and AI activities, Alpine School prepares students for the next generation of opportunities.",
-    image: "/images/hero/home_hero_3.png",
+    image: "/images/hero/home_hero_3.webp",
     primaryCta: {
       label: "Explore Activities",
       href: "/gallery",
@@ -90,7 +90,7 @@ export const statsData = [
 export const principalMessage = {
   name: "Principal Alpine School",
   designation: "Principal",
-  photo: "/images/faculty/Principal.png",
+  photo: "/images/faculty/Principal.webp",
   welcome:
     "Welcome to Alpine Digital School, a place where academic excellence, discipline, creativity, and modern learning come together to shape confident young minds.",
   vision:
@@ -111,7 +111,7 @@ export const testimonialsData = [
     message:
       "I’m very happy with my children’s experience at Alpine School. The caring teachers and supportive staff provide quality education while fostering strong character and values.",
     rating: 5,
-    image: "/images/gallery/Review_1.png",
+    image: "/images/gallery/Review_1.webp",
   },
   {
     name: "M. Zaka Ullah",
@@ -120,7 +120,7 @@ export const testimonialsData = [
     message:
       "Alpine School provides a perfect balance between academics and character building. The regular updates from teachers and focus on discipline give parents great confidence.",
     rating: 5,
-    image: "/images/gallery/Review_2.png",
+    image: "/images/gallery/Review_2.webp",
   },
   {
     name: "Haya Rizwan",
@@ -129,7 +129,7 @@ export const testimonialsData = [
     message:
       "My experience at Alpine School has been wonderful. The teachers make lessons interesting, encourage participation, and help students prepare confidently for exams and future challenges.",
     rating: 5,
-    image: "/images/gallery/Review_3.png",
+    image: "/images/gallery/Review_3.webp",
   },
   {
     name: "Sufyan Sohail",
@@ -138,7 +138,7 @@ export const testimonialsData = [
     message:
       "What I appreciate most about Alpine School is the attention given to every student. The learning environment is friendly, safe, and encourages children to achieve their best.",
     rating: 5,
-    image: "/images/gallery/Review_4.png",
+    image: "/images/gallery/Review_4.webp",
   },
   {
     name: "M. Hamid Sajid",
@@ -147,7 +147,7 @@ export const testimonialsData = [
     message:
       "Alpine School has helped me become more confident through competitions, activities, and guidance from my teachers. I enjoy learning in such a positive environment.",
     rating: 5,
-    image: "/images/gallery/Review_5.png",
+    image: "/images/gallery/Review_5.webp",
   },
 ];
 

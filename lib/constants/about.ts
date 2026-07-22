@@ -22,7 +22,7 @@ export const aboutHero = {
   title: "A Premium School Built for Future-Ready Learning",
   description:
     "Alpine Digital School is committed to academic excellence, strong character, modern technology, STEM, robotics, AI awareness, and confident student development.",
-  image: "/images/hero/about_us_hero.png",
+  image: "/images/hero/about_us_hero.webp",
 };
 
 export const schoolOverview = {
@@ -170,42 +170,42 @@ export const infrastructureData = [
     title: "Smart Classrooms",
     description:
       "Comfortable classrooms designed for interactive teaching, focused learning, digital resources, and modern classroom activities.",
-    image: "/images/gallery/Smart_Classrooms.png",
+    image: "/images/gallery/Smart_Classrooms.webp",
   },
   {
     icon: BookOpen,
     title: "Computer Lab",
     description:
       "A dedicated computer lab where students learn digital literacy, programming basics, typing, office tools, and practical IT skills.",
-    image: "/images/gallery/IT_1.png",
+    image: "/images/gallery/IT_1.webp",
   },
   {
     icon: Brain,
     title: "Robotics Lab",
     description:
       "A future-ready robotics learning space for hands-on projects, sensors, motors, Arduino basics, and engineering thinking.",
-    image: "/images/gallery/Robotics_Lab.png",
+    image: "/images/gallery/Robotics_Lab.webp",
   },
   {
     icon: Rocket,
     title: "STEM Lab",
     description:
       "A practical STEM environment where students explore science, technology, engineering, mathematics, problem-solving, and innovation.",
-    image: "/images/gallery/Science_2.png",
+    image: "/images/gallery/Science_2.webp",
   },
   {
     icon: Microscope,
     title: "Science Lab",
     description:
       "A safe and guided science lab for experiments, demonstrations, observation-based learning, and scientific curiosity.",
-    image: "/images/gallery/Science_1.png",
+    image: "/images/gallery/Science_1.webp",
   },
   {
     icon: Compass,
     title: "Sports Ground",
     description:
       "A spacious activity area for sports, physical training, teamwork, competitions, and confidence-building activities.",
-    image: "/images/gallery/sports.png",
+    image: "/images/gallery/sports.webp",
   },
 ];
 
@@ -214,44 +214,44 @@ export const schoolLifeData = [
     title: "Classroom Activities",
     description:
       "Interactive lessons, presentations, group discussions, and collaborative learning encourage critical thinking and creativity.",
-    image: "/images/gallery/Classroom_Activities.png",
+    image: "/images/gallery/Classroom_Activities.webp",
   },
   {
     title: "Sports & Physical Activities",
     description:
       "Students develop teamwork, discipline, fitness, and leadership through indoor and outdoor sports programs.",
-    image: "/images/gallery/sports.png",
+    image: "/images/gallery/sports.webp",
   },
   {
     title: "Competitions",
     description:
       "Science fairs, debates, IT contests, robotics challenges, quizzes, and creative competitions inspire excellence.",
-    image: "/images/gallery/Competitions.png",
+    image: "/images/gallery/Competitions.webp",
   },
   {
     title: "Annual Functions",
     description:
       "Celebrations, award ceremonies, cultural performances, speeches, and stage activities build confidence and creativity.",
-    image: "/images/gallery/Annual_Function.png",
+    image: "/images/gallery/Annual_Function.webp",
   },
   {
     title: "Educational Field Trips",
     description:
       "Visits to museums, industries, universities, science centers, and historical places provide real-world learning experiences.",
-    image: "/images/gallery/trips.png",
+    image: "/images/gallery/trips.webp",
   },
   {
     title: "Leadership & Clubs",
     description:
       "Students participate in leadership programs, clubs, community service, and extracurricular activities that develop responsibility and confidence.",
-    image: "/images/gallery/Leadership.png",
+    image: "/images/gallery/Leadership.webp",
   },
 ];
 
 export const aboutPrincipalMessage = {
   name: "Principal Alpine School",
   designation: "Principal",
-  photo: "/images/faculty/Principal.png",
+  photo: "/images/faculty/Principal.webp",
   message:
     "At Alpine Digital School, we believe that education must prepare students for both academic success and real life. Our goal is to provide a balanced environment where students learn discipline, confidence, creativity, and responsibility along with strong academics.",
   vision:

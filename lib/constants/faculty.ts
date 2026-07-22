@@ -7,7 +7,7 @@ export const facultyHero = {
   title: "Meet Our Educators & Academic Leaders",
   description:
     "Our experienced faculty members are committed to academic excellence, innovation, student development, and preparing learners for the future.",
-  image: "/images/hero/faculty_hero.png",
+  image: "/images/hero/faculty_hero.webp",
 };
 
 /* ===========================================
@@ -18,7 +18,7 @@ export const principalData = {
   name: "M Imran Younas",
   designation: "Principal & Director",
   badge: "Executive Principal",
-  image: "/images/faculty/Principal.png",
+  image: "/images/faculty/Principal.webp",
 
   qualification: "M.Sc. (Mathematics), MBA (HRM)",
   experience: "24+ Years",
@@ -55,7 +55,7 @@ export const coordinators = [
   {
     name: "Saba Almas",
     designation: "Pre-School Coordinator",
-    image: "/images/faculty/Saba.png",
+    image: "/images/faculty/Saba.webp",
 
     qualification: "M.A. (Urdu)",
     experience: "5 Years",
@@ -68,7 +68,7 @@ export const coordinators = [
   {
     name: "Maria Liaqat",
     designation: "Core Junior School Coordinator",
-    image: "/images/faculty/Maria.png",
+    image: "/images/faculty/Maria.webp",
 
     qualification: "M.Sc. (Mathematics), B.Ed",
     experience: "6 Years",
@@ -81,7 +81,7 @@ export const coordinators = [
   {
     name: "Parveen Kousar",
     designation: "Plus Junior School Coordinator",
-    image: "/images/faculty/Parveen.png",
+    image: "/images/faculty/Parveen.webp",
 
     qualification: "M.A. (Islamiat), B.Ed",
     experience: "18 Years",
@@ -94,7 +94,7 @@ export const coordinators = [
   {
     name: "Iqra Munawar",
     designation: "High School Coordinator",
-    image: "/images/faculty/Iqra.png",
+    image: "/images/faculty/Iqra.webp",
 
     qualification: "M.Phil. (Analytical Chemistry)",
     experience: "2 Years",
@@ -110,7 +110,7 @@ export const administration = [
     name: "Naila Aslam",
     featured: false,
     designation: "Administrator",
-    image: "/images/faculty/Naila.png",
+    image: "/images/faculty/Naila.webp",
     qualification: "M.Sc. Mathematics, B.Ed",
     experience: "6 Years",
     email: "nailach805@gmail.com",
@@ -122,7 +122,7 @@ export const administration = [
     name: "Moiza Khan",
     featured: false,
     designation: "Administrator",
-    image: "/images/faculty/Moiza.png",
+    image: "/images/faculty/Moiza.webp",
     qualification: "MCS",
     experience: "3 Years",
     email: "khanmoiza364@gmail.com",
@@ -157,7 +157,7 @@ export const featuredDeveloper = {
 
   department: "IT Department",
 
-  image: "/images/faculty/faculty-gallery/fizza-1.png",
+  image: "/images/faculty/faculty-gallery/fizza-1.webp",
 
   qualification: [
     "BS Computer Science",
@@ -238,7 +238,7 @@ export const facultyDirectory: FacultyMember[] = [
     featured: true,
     designation: "IT Teacher & AI Instructor",
     department: "IT, STEM and Robotics",
-    image: "/images/faculty/Fizza.png",
+    image: "/images/faculty/Fizza.webp",
     qualification: "BS Computer Science",
     experience: "3 Years",
     subjects: [
@@ -261,7 +261,7 @@ export const facultyDirectory: FacultyMember[] = [
 
     designation: "IT Developer & Teacher",
     department: "IT, STEM and Robotics",
-    image: "/images/faculty/SairaAslam.png",
+    image: "/images/faculty/SairaAslam.webp",
     qualification: "BS Information Technology, B.Ed",
     experience: "4 Years",
     subjects: ["Computer", "Robotics, STEM"],
@@ -277,7 +277,7 @@ export const facultyDirectory: FacultyMember[] = [
     featured: false,
     designation: "IT Developer and Teacher",
     department: "IT, STEM and Robotics",
-    image: "/images/faculty/SairaZahid.png",
+    image: "/images/faculty/SairaZahid.webp",
     qualification: "ADP(CS), BS Information Technology",
     experience: "1.5 Years",
     subjects: ["STEM, Robotics, Digital Literacy"],
@@ -293,7 +293,7 @@ export const facultyDirectory: FacultyMember[] = [
     featured: false,
     designation: "Science Teacher",
     department: "Science",
-    image: "/images/faculty/Mahpara.png",
+    image: "/images/faculty/Mahpara.webp",
     qualification: "BS Biotechnology",
     experience: "3 Years",
     subjects: ["Chemistry", "Biology"],
@@ -312,7 +312,7 @@ export const facultyDirectory: FacultyMember[] = [
     featured: false,
     designation: "Science Teacher",
     department: "Science",
-    image: "/images/faculty/Maryam.png",
+    image: "/images/faculty/Maryam.webp",
     qualification: "M.Sc Botany",
     experience: "1 Year",
     subjects: ["Science"],
@@ -328,7 +328,7 @@ export const facultyDirectory: FacultyMember[] = [
     featured: false,
     designation: "Spoken English Trainer",
     department: "English",
-    image: "/images/faculty/Kaleem.png",
+    image: "/images/faculty/Kaleem.webp",
     qualification: "M.A English, B.Edu",
     experience: "10 Years",
     subjects: ["Spoken English"],
@@ -344,7 +344,7 @@ export const facultyDirectory: FacultyMember[] = [
     featured: false,
     designation: "English Teacher",
     department: "English",
-    image: "/images/faculty/Asima.png",
+    image: "/images/faculty/Asima.webp",
     qualification: "BS English",
     experience: "3 Years",
     subjects: ["English"],
@@ -361,7 +361,7 @@ export const facultyDirectory: FacultyMember[] = [
     featured: false,
     designation: "Spoken English Trainer",
     department: "English",
-    image: "/images/faculty/Mehwish.png",
+    image: "/images/faculty/Mehwish.webp",
     qualification: "BS English Literature",
     experience: "2 Years",
     subjects: ["Spoken English", "English"],
@@ -377,7 +377,7 @@ export const facultyDirectory: FacultyMember[] = [
     featured: false,
     designation: "Mathematics Teacher",
     department: "Mathematics",
-    image: "/images/faculty/Yasir.png",
+    image: "/images/faculty/Yasir.webp",
     qualification: "M.Sc Statistics, B.Ed",
     experience: "12 Years",
     subjects: ["Mathematics"],
@@ -393,7 +393,7 @@ export const facultyDirectory: FacultyMember[] = [
     featured: false,
     designation: "Mathematics Teacher",
     department: "Mathematics",
-    image: "/images/faculty/Rashida.png",
+    image: "/images/faculty/Rashida.webp",
     qualification: "M.Phill Mathematics",
     experience: "2 Years",
     subjects: ["Mathematics"],
@@ -408,7 +408,7 @@ export const facultyDirectory: FacultyMember[] = [
     featured: false,
     designation: "Islamic Studies Teacher",
     department: "Islamic Studies",
-    image: "/images/faculty/Faiza.png",
+    image: "/images/faculty/Faiza.webp",
     qualification: "M.Sc. Mathematics",
     experience: "4 Years",
     subjects: ["Islamic Studies", "Quran"],
@@ -424,7 +424,7 @@ export const facultyDirectory: FacultyMember[] = [
     featured: false,
     designation: "Urdu Teacher",
     department: "Urdu",
-    image: "/images/faculty/Aqsa.png",
+    image: "/images/faculty/Aqsa.webp",
     qualification: "M.A Urdu, B.Ed",
     experience: "7 Years",
     subjects: ["Urdu"],
@@ -440,7 +440,7 @@ export const facultyDirectory: FacultyMember[] = [
     featured: false,
     designation: "Sports Trainer",
     department: "Physical Education",
-    image: "/images/faculty/Samina.png",
+    image: "/images/faculty/Samina.webp",
     qualification: "M.A (Physical Education), B.Ed",
     experience: "8 Years",
     subjects: ["Sports"],
@@ -456,7 +456,7 @@ export const facultyDirectory: FacultyMember[] = [
     featured: false,
     designation: "Pre-School Teacher",
     department: "Pre-School",
-    image: "/images/faculty/Nazish.png",
+    image: "/images/faculty/Nazish.webp",
     qualification: "BSCS",
     experience: "2 Years",
     subjects: ["Science Exploration"],
@@ -472,7 +472,7 @@ export const facultyDirectory: FacultyMember[] = [
     featured: false,
     designation: "Pre-School Teacher",
     department: "Pre-School",
-    image: "/images/faculty/Memoona.png",
+    image: "/images/faculty/Memoona.webp",
     qualification: "Doctor of Optometry",
     experience: "1 Year",
     subjects: ["English"],
@@ -488,7 +488,7 @@ export const facultyDirectory: FacultyMember[] = [
     featured: false,
     designation: "Pre-School Teacher",
     department: "Pre-School",
-    image: "/images/faculty/Uzma.png",
+    image: "/images/faculty/Uzma.webp",
     qualification: "F.A",
     experience: "1 Year",
     subjects: ["Phonics"],
@@ -504,7 +504,7 @@ export const facultyDirectory: FacultyMember[] = [
     featured: false,
     designation: "Pre-School Teacher",
     department: "Pre-School",
-    image: "/images/faculty/Tehmeena.png",
+    image: "/images/faculty/Tehmeena.webp",
     qualification: "M.A Education",
     experience: "5 Years",
     subjects: ["Mathematics"],
@@ -520,7 +520,7 @@ export const facultyDirectory: FacultyMember[] = [
     featured: false,
     designation: "Pre-School Teacher",
     department: "Pre-School",
-    image: "/images/faculty/Shazia.png",
+    image: "/images/faculty/Shazia.webp",
     qualification: "F.A",
     experience: "1 Year",
     subjects: ["Pre-Writing Skills"],
@@ -536,7 +536,7 @@ export const facultyDirectory: FacultyMember[] = [
     featured: false,
     designation: "Pre-School Teacher",
     department: "Pre-School",
-    image: "/images/faculty/Ayesha.png",
+    image: "/images/faculty/Ayesha.webp",
     qualification: "BS Computer Science",
     experience: "3 Years",
     subjects: ["Computer Science"],
@@ -552,7 +552,7 @@ export const facultyDirectory: FacultyMember[] = [
     featured: false,
     designation: "Pre-School Teacher",
     department: "Pre-School",
-    image: "/images/faculty/Eman.png",
+    image: "/images/faculty/Eman.webp",
     qualification: "BS Cyber Security",
     experience: "1 Year",
     subjects: ["General Knowledge"],
@@ -568,7 +568,7 @@ export const facultyDirectory: FacultyMember[] = [
     featured: false,
     designation: "Pre-School Teacher",
     department: "Pre-School",
-    image: "/images/faculty/Habiba.png",
+    image: "/images/faculty/Habiba.webp",
     qualification: "BS English",
     experience: "1 Year",
     subjects: ["Handwriting Skills"],
@@ -584,7 +584,7 @@ export const facultyDirectory: FacultyMember[] = [
     featured: false,
     designation: "Pre-School Teacher",
     department: "Pre-School",
-    image: "/images/faculty/Laiba.png",
+    image: "/images/faculty/Laiba.webp",
     qualification: "ADP",
     experience: "1 Year",
     subjects: ["Urdu"],
@@ -600,7 +600,7 @@ export const facultyDirectory: FacultyMember[] = [
     featured: false,
     designation: "Pre-School Teacher",
     department: "Pre-School",
-    image: "/images/faculty/Rimsha.png",
+    image: "/images/faculty/Rimsha.webp",
     qualification: "Bachelor of Arts",
     experience: "5 Years",
     subjects: ["Urdu"],
@@ -792,49 +792,49 @@ export const developerGallery = [
     title: "Teaching Classroom",
     description:
       "Interactive classroom teaching focused on IT concepts, programming fundamentals, and digital learning.",
-    image: "/images/faculty/faculty-gallery/fizza-1.png",
+    image: "/images/faculty/faculty-gallery/fizza-1.webp",
   },
   {
     title: "Computer Lab",
     description:
       "Hands-on computer lab sessions where students practice coding, office tools, typing, and digital skills.",
-    image: "/images/faculty/faculty-gallery/fizza-2.png",
+    image: "/images/faculty/faculty-gallery/fizza-2.webp",
   },
   {
     title: "AI Workshop",
     description:
       "AI learning sessions introducing students to prompt engineering, AI tools, automation, and responsible AI use.",
-    image: "/images/faculty/faculty-gallery/fizza-3.png",
+    image: "/images/faculty/faculty-gallery/fizza-3.webp",
   },
   {
     title: "Robotics Session",
     description:
       "Robotics basics including sensors, motors, Arduino, logic building, and beginner engineering activities.",
-    image: "/images/faculty/faculty-gallery/fizza-4.png",
+    image: "/images/faculty/faculty-gallery/fizza-4.webp",
   },
   {
     title: "Student Mentoring",
     description:
       "Guiding students in projects, confidence building, career direction, and practical technology skills.",
-    image: "/images/faculty/faculty-gallery/fizza-5.png",
+    image: "/images/faculty/faculty-gallery/fizza-5.webp",
   },
   {
     title: "Coding Session",
     description:
       "Programming practice with logic building, problem-solving tasks, web development, and real coding exercises.",
-    image: "/images/faculty/faculty-gallery/fizza-6.png",
+    image: "/images/faculty/faculty-gallery/fizza-6.webp",
   },
   {
     title: "Seminar",
     description:
       "Technology awareness seminars covering digital skills, AI, career guidance, and modern learning opportunities.",
-    image: "/images/faculty/faculty-gallery/fizza-7.png",
+    image: "/images/faculty/faculty-gallery/fizza-7.webp",
   },
   {
     title: "Project Demonstrations",
     description:
       "Students present practical projects, websites, AI tasks, robotics models, and creative technology solutions.",
-    image: "/images/faculty/faculty-gallery/fizza-8.png",
+    image: "/images/faculty/faculty-gallery/fizza-8.webp",
   },
 ];
 

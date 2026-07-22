@@ -10,7 +10,7 @@ export const achievementsHero = {
   description:
   "Discover the outstanding academic accomplishments, board position holders, certificates, leadership, and learning excellence of our students.",
 
-  image: "/images/hero/achievements_hero.png",
+  image: "/images/hero/achievements_hero.webp",
 
   primaryButton: {
     label: "View Achievements",
@@ -46,7 +46,7 @@ export const achievements = [
     description:
       "Secured 1153 ot of 1200 in the annual board examinations with outstanding academic performance.",
     year: "2025",
-    image: "/images/gallery/Student_1.png",
+    image: "/images/gallery/Student_1.webp",
   },
 
   {
@@ -58,7 +58,7 @@ export const achievements = [
     description:
       "Secured 1083 ot of 1100 in the annual board examinations with outstanding academic performance.",
     year: "2024",
-    image: "/images/gallery/Student_2.png",
+    image: "/images/gallery/Student_2.webp",
   },
 
   {
@@ -70,7 +70,7 @@ export const achievements = [
     description:
       "Secured 1045 ot of 1100 in the annual board examinations with outstanding academic performance.",
     year: "2023",
-    image: "/images/gallery/Student_3.png",
+    image: "/images/gallery/Student_3.webp",
   },
 
     {
@@ -82,7 +82,7 @@ export const achievements = [
     description:
       "Secured 1082 ot of 1100 in the annual board examinations with outstanding academic performance.",
     year: "2022",
-    image: "/images/gallery/Student_4.png",
+    image: "/images/gallery/Student_4.webp",
   },
 
   {
@@ -94,7 +94,7 @@ export const achievements = [
     description:
       "Secured 1080 ot of 1100 in the annual board examinations with outstanding academic performance.",
     year: "2021",
-    image: "/images/gallery/Student_5.png",
+    image: "/images/gallery/Student_5.webp",
   },
 ];
 
@@ -108,7 +108,7 @@ export const positionHolders = [
     student: "Aiza Azhar",
     class: "Grade 10",
     percentage: "98.45%",
-    image: "/images/gallery/Student_2.png",
+    image: "/images/gallery/Student_2.webp",
   },
 
   {
@@ -116,7 +116,7 @@ export const positionHolders = [
     student: "Ahmad javed",
     class: "Grade 10",
     percentage: "98.36%",
-    image: "/images/gallery/Student_4.png",
+    image: "/images/gallery/Student_4.webp",
   },
   
   {
@@ -124,7 +124,7 @@ export const positionHolders = [
     student: "Zara Batool",
     class: "Grade 10",
     percentage: "98.18%",
-    image: "/images/gallery/Student_5.png",
+    image: "/images/gallery/Student_5.webp",
   },
 
   {
@@ -132,7 +132,7 @@ export const positionHolders = [
     student: "Aroosh Imran",
     class: "Grade 10",
     percentage: "96.08%",
-    image: "/images/gallery/Student_1.png",
+    image: "/images/gallery/Student_1.webp",
   },
 
   {
@@ -140,7 +140,7 @@ export const positionHolders = [
     student: "Abdullah Tahir",
     class: "Grade 10",
     percentage: "95.00%",
-    image: "/images/gallery/Student_3.png",
+    image: "/images/gallery/Student_3.webp",
   },  
 ];
 
@@ -176,7 +176,7 @@ export const certificates = [
   {
     title: "General Secretary Certificate",
     student: "Muhammad Imran Younas",
-    image: "/images/gallery/certificate1.png",
+    image: "/images/gallery/certificate1.webp",
     organization: "Pakistan Chanber of Education",
     year: "2020",
   },
@@ -184,7 +184,7 @@ export const certificates = [
   {
     title: "Digital South Punjab Road Show Certificate",
     student: "Muhammad Imran Younas",
-    image: "/images/gallery/certificate2.png",
+    image: "/images/gallery/certificate2.webp",
     organization: "Digital South Punjab Road Show",
     year: "2022",
   },
@@ -192,7 +192,7 @@ export const certificates = [
   {
     title: "Digital South Punjab Road Show Certificate",
     student: "Muhammad Imran Younas",
-    image: "/images/gallery/certificate3.png",
+    image: "/images/gallery/certificate3.webp",
     organization: "Digital South Punjab Road Show",
     year: "2022",
   },
@@ -200,7 +200,7 @@ export const certificates = [
   {
     title: "Certificate of Honour",
     student: "Muhammad Imran Younas",
-    image: "/images/gallery/certificate4.png",
+    image: "/images/gallery/certificate4.webp",
     organization: "Pakistan Chanber of Education",
     year: "2024",
   },
@@ -208,7 +208,7 @@ export const certificates = [
   {
     title: "Certificate of Participation",
     student: "Muhammad Imran Younas",
-    image: "/images/gallery/certificate5.png",
+    image: "/images/gallery/certificate5.webp",
     organization: "Pakistan Chanber of Education",
     year: "2025",
   },
@@ -221,27 +221,27 @@ export const certificates = [
 export const achievementGallery = [
   {
     category: "Academic",
-    image: "/images/gallery/Student_1.png",
+    image: "/images/gallery/Student_1.webp",
   },
 
   {
     category: "Academic",
-    image: "/images/gallery/Student_2.png",
+    image: "/images/gallery/Student_2.webp",
   },
 
   {
     category: "Academic",
-    image: "/images/gallery/Student_3.png",
+    image: "/images/gallery/Student_3.webp",
   },
 
   {
     category: "Academic",
-    image: "/images/gallery/Student_4.png",
+    image: "/images/gallery/Student_4.webp",
   },
 
   {
     category: "Academic",
-    image: "/images/gallery/Student_5.png",
+    image: "/images/gallery/Student_5.webp",
   },
 ];
 

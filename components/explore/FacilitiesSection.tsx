@@ -22,7 +22,7 @@ const facilityItems = [
     title: "Classrooms",
     description:
       "Comfortable classrooms designed for focused learning, student participation, and interactive teaching.",
-    image: "/images/gallery/Science_3.png",
+    image: "/images/gallery/Science_3.webp",
     icon: Building2,
     badge: "Learning Space",
   },
@@ -30,7 +30,7 @@ const facilityItems = [
     title: "Smart Classes",
     description:
       "Technology-enabled classrooms with multimedia support, digital lessons, and modern learning tools.",
-    image: "/images/gallery/Smart_Classrooms.png",
+    image: "/images/gallery/Smart_Classrooms.webp",
     icon: MonitorPlay,
     badge: "Smart Learning",
   },
@@ -38,7 +38,7 @@ const facilityItems = [
     title: "Computer Lab",
     description:
       "Hands-on computer learning environment for programming, digital literacy, office tools, and IT skills.",
-    image: "/images/gallery/IT_1.png",
+    image: "/images/gallery/IT_1.webp",
     icon: Laptop,
     badge: "IT Lab",
   },
@@ -46,7 +46,7 @@ const facilityItems = [
     title: "Science Lab",
     description:
       "Practical science lab for experiments, demonstrations, observations, and concept-based learning.",
-    image: "/images/gallery/Science_1.png",
+    image: "/images/gallery/Science_1.webp",
     icon: FlaskConical,
     badge: "Science",
   },
@@ -54,7 +54,7 @@ const facilityItems = [
     title: "STEM Lab",
     description:
       "Creative project-based lab for science, technology, engineering, mathematics, and innovation.",
-    image: "/images/gallery/IT_3.png",
+    image: "/images/gallery/IT_3.webp",
     icon: Microscope,
     badge: "STEM",
   },
@@ -62,7 +62,7 @@ const facilityItems = [
     title: "Robotics Lab",
     description:
       "Robotics learning space for Arduino, sensors, motors, logic building, and engineering activities.",
-    image: "/images/gallery/Robotics_Lab.png",
+    image: "/images/gallery/Robotics_Lab.webp",
     icon: Bot,
     badge: "Robotics",
   },
@@ -70,7 +70,7 @@ const facilityItems = [
     title: "Sports Ground",
     description:
       "Open sports area for games, physical training, competitions, teamwork, and confidence building.",
-    image: "/images/gallery/Sports.png",
+    image: "/images/gallery/Sports.webp",
     icon: Dumbbell,
     badge: "Sports",
   },
@@ -78,7 +78,7 @@ const facilityItems = [
     title: "Library",
     description:
       "A peaceful reading and research space that encourages curiosity, study habits, and lifelong learning.",
-    image: "/images/gallery/Library.png",
+    image: "/images/gallery/Library.webp",
     icon: BookOpen,
     badge: "Library",
   },

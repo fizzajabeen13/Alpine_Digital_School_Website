@@ -1,3 +1,4 @@
+import dynamic from "next/dynamic";
 import RevealOnScroll from "@/components/animations/RevealOnScroll";
 import FormInput from "@/components/forms/FormInput";
 import FormSelect from "@/components/forms/FormSelect";
@@ -5,17 +6,31 @@ import FormTextarea from "@/components/forms/FormTextarea";
 import FormWrapper from "@/components/forms/FormWrapper";
 import SubmitButton from "@/components/forms/SubmitButton";
 import SuccessMessage from "@/components/forms/SuccessMessage";
-import Hero from "@/components/home/Hero";
 import Container from "@/components/ui/Container";
+import ChatWidget from "@/components/shared/ChatWidget";
+import Hero from "@/components/home/Hero";
 import StatsSection from "@/components/home/StatsSection";
 import PrincipalMessage from "@/components/home/PrincipalMessage";
-import SchoolVideo from "@/components/home/SchoolVideo";
-import TestimonialSection from "@/components/home/TestimonialSection";
-import CTASection from "@/components/home/CTASection";
-import ChatWidget from "@/components/shared/ChatWidget";
-import LatestNotices from "@/components/home/LatestNotices";
-import StudentsAchievements from "@/components/home/StudentsAchievements";
 
+const SchoolVideo = dynamic(
+  () => import("@/components/home/SchoolVideo")
+);
+
+const LatestNotices = dynamic(
+  () => import("@/components/home/LatestNotices")
+);
+
+const StudentsAchievements = dynamic(
+  () => import("@/components/home/StudentsAchievements")
+);
+
+const TestimonialSection = dynamic(
+  () => import("@/components/home/TestimonialSection")
+);
+
+const CTASection = dynamic(
+  () => import("@/components/home/CTASection")
+);
 export default function HomePage() {
   return (
     <main>

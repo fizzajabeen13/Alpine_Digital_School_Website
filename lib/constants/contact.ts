@@ -10,7 +10,7 @@ export const contactHero = {
   description:
     "Have questions about admissions, academics, school life, or anything else? Our team is ready to assist you. Reach out through phone, WhatsApp, email, or visit our campus.",
 
-  image: "/images/hero/contact_hero.png",
+  image: "/images/hero/contact_hero.webp",
 
   primaryButton: {
     label: "Send Inquiry",

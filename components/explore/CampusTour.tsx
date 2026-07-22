@@ -139,7 +139,7 @@ export default function CampusTour() {
               >
 
                 <Image
-                  src="/images/hero/home_hero_1.png"
+                  src="/images/hero/home_hero_1.webp"
                   alt="Alpine Digital School Campus"
                   fill
                   className="

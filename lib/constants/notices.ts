@@ -10,7 +10,7 @@ export const noticesHero = {
   description:
     "Stay informed with the latest school notices, holiday announcements, examination schedules, fee updates, and important announcements.",
 
-  image: "/images/hero/notice_board_hero.png",
+  image: "/images/hero/notice_board_hero.webp",
 
   primaryButton: {
     label: "View Notices",

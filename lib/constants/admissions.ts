@@ -7,7 +7,7 @@ export const admissionsHero = {
   title: "Start Your Child’s Journey at Alpine Digital School",
   description:
     "Apply for admission and give your child a future-ready education focused on academics, discipline, confidence, STEM, AI, robotics, communication skills, and digital learning.",
-  image: "/images/hero/admission_hero.png",
+  image: "/images/hero/admission_hero.webp",
 
   primaryButton: {
     label: "Apply Now",

@@ -21,7 +21,7 @@ const activityCards = [
     title: "Sports Activities",
     description:
       "Students participate in cricket, football, athletics, team games, races, and sports competitions to develop discipline, teamwork, and confidence.",
-    image: "/images/gallery/sports.png",
+    image: "/images/gallery/sports.webp",
     icon: Trophy,
     badge: "Sports",
   },
@@ -29,7 +29,7 @@ const activityCards = [
     title: "Educational Trips",
     description:
       "Field trips to museums, universities, science centers, industries, and historical places help students connect classroom learning with real-world experiences.",
-    image: "/images/gallery/trips.png",
+    image: "/images/gallery/trips.webp",
     icon: Bus,
     badge: "Trips",
   },
@@ -37,7 +37,7 @@ const activityCards = [
     title: "Annual Functions",
     description:
       "Annual functions, award ceremonies, cultural programs, speeches, performances, and celebrations build confidence and creativity.",
-    image: "/images/gallery/Annual_Function.png",
+    image: "/images/gallery/Annual_Function.webp",
     icon: PartyPopper,
     badge: "Functions",
   },
@@ -45,7 +45,7 @@ const activityCards = [
     title: "Competitions",
     description:
       "Debates, quizzes, art contests, science competitions, IT contests, and academic challenges encourage healthy competition and excellence.",
-    image: "/images/gallery/Competitions.png",
+    image: "/images/gallery/Competitions.webp",
     icon: Medal,
     badge: "Competitions",
   },
@@ -53,7 +53,7 @@ const activityCards = [
     title: "Science Activities",
     description:
       "Science fairs, experiments, model making, demonstrations, and exhibitions help students understand concepts through practical learning.",
-    image: "/images/gallery/Classroom_Activities.png",
+    image: "/images/gallery/Classroom_Activities.webp",
     icon: FlaskConical,
     badge: "Science",
   },
@@ -61,7 +61,7 @@ const activityCards = [
     title: "IT Activities",
     description:
       "Coding practice, computer literacy sessions, typing, office applications, web development basics, and IT quizzes build digital confidence.",
-    image: "/images/gallery/IT_1.png",
+    image: "/images/gallery/IT_1.webp",
     icon: Code2,
     badge: "IT",
   },
@@ -69,7 +69,7 @@ const activityCards = [
     title: "Robotics Activities",
     description:
       "Robotics sessions introduce Arduino, sensors, motors, logic building, engineering challenges, and project-based learning.",
-    image: "/images/gallery/Robotics_Lab.png",
+    image: "/images/gallery/Robotics_Lab.webp",
     icon: Bot,
     badge: "Robotics",
   },
@@ -164,7 +164,7 @@ export default function ActivitiesSection() {
             >
 
               <Image
-                src="/images/gallery/Leadership.png"
+                src="/images/gallery/Leadership.webp"
                 alt="Student Activities"
                 fill
                 className="
