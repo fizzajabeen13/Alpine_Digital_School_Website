@@ -5,6 +5,9 @@ import ContactDetails from "@/components/contact/ContactDetails";
 import SocialContactSection from "@/components/contact/SocialContactSection";
 
 export const metadata: Metadata = {
+   alternates: {
+    canonical: "/contact",
+  },
   title: "Contact Us",
   description:
     "Contact Alpine Digital School through phone, WhatsApp, email, contact form, office hours, and campus location.",

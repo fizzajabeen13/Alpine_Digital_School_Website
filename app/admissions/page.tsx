@@ -6,6 +6,9 @@ import EligibilityProcessDocuments from "@/components/admissions/EligibilityProc
 import DownloadsSection from "@/components/admissions/DownloadsSection";
 
 export const metadata: Metadata = {
+   alternates: {
+    canonical: "/amissions",
+  },
   title: "Admissions",
   description:
     "Admissions at Alpine Digital School. View eligibility, admission process, required documents, fee information, inquiry form, application form, and downloadable prospectus.",

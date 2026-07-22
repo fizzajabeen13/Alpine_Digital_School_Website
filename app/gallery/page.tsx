@@ -7,6 +7,9 @@ import AlbumsGallery from "@/components/explore/AlbumsGallery";
 import VideosSection from "@/components/explore/VideosSection";
 
 export const metadata: Metadata = {
+   alternates: {
+    canonical: "/explore-school",
+  },
   title: "Explore School",
   description:
     "Explore Alpine Digital School campus, facilities, labs, sports, activities, gallery, albums, and videos.",

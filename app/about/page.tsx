@@ -7,7 +7,10 @@ import Infrastructure from "@/components/about/Infrastructure";
 import SchoolLife from "@/components/about/SchoolLife";
 
 export const metadata: Metadata = {
-  title: "About School",
+   alternates: {
+    canonical: "/about",
+  },
+  title: "About Us",
   description:
     "Learn about Alpine Digital School, its vision, mission, values, achievements, infrastructure, and school life.",
 };

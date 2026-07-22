@@ -8,6 +8,9 @@ import DeveloperGallery from "@/components/faculty/DeveloperGallery";
 import DeveloperCTA from "@/components/faculty/DeveloperCTA";
 
 export const metadata: Metadata = {
+   alternates: {
+    canonical: "/fizza-jabeen",
+  },
   title: "Fizza Jabeen",
   description:
     "IT Teacher, AI Instructor and Full Stack Web Developer at Alpine Digital School.",

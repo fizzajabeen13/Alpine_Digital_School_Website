@@ -4,7 +4,10 @@ import NoticesHero from "@/components/notices/NoticesHero";
 import NoticeBoard from "@/components/notices/NoticeBoard";
 
 export const metadata: Metadata = {
-  title: "Notice Board",
+   alternates: {
+    canonical: "/notices",
+  },
+  title: "Notices",
   description:
     "View school notices, holiday announcements, exam schedules, fee notices, and urgent updates.",
 };

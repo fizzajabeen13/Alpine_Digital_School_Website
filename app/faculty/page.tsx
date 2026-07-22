@@ -5,6 +5,9 @@ import FeaturedDeveloperProfile from "@/components/faculty/FeaturedDeveloperProf
 import FacultyDirectory from "@/components/faculty/FacultyDirectory";
 
 export const metadata: Metadata = {
+   alternates: {
+    canonical: "/faculty",
+  },
   title: "Faculty",
   description:
     "Meet Alpine Digital School faculty, principal, coordinators, teachers, and technology educators.",
