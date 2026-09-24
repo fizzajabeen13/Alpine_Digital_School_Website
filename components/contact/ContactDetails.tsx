@@ -113,7 +113,7 @@ export default function ContactDetails() {
             </div>
           </div>
         </RevealOnScroll>
-                {/* ====================================================== */}
+        {/* ====================================================== */}
         {/* Contact Cards */}
         {/* ====================================================== */}
 
@@ -188,7 +188,7 @@ export default function ContactDetails() {
                           className="
                             mt-4
                             block
-                            break-all
+                            break-words
                             text-base
                             leading-8
                             text-slate-600
@@ -281,7 +281,7 @@ export default function ContactDetails() {
               </div>
             </article>
           </RevealOnScroll>
-                    {/* ====================================================== */}
+          {/* ====================================================== */}
           {/* Social Media */}
           {/* ====================================================== */}
 

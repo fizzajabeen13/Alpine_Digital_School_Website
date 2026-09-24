@@ -140,8 +140,8 @@ export const exploreVideos = [
     description:
       "A guided visual tour of the school campus, entrance, classrooms, labs, and student spaces.",
     thumbnail: "/images/gallery/Campus_Tour.webp",
-    video: "/videos/Campus_Tour.mp4",
-    duration: "02:25",
+    video: "https://www.youtube.com/watch?v=Y-NdQdkRfi0",
+    duration: "01:05",
     category: "Campus",
   },
 ];

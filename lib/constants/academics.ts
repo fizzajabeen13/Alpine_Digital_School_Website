@@ -258,7 +258,7 @@ export const departmentsData = [
       {
         name: "Yasir Ali",
         designation: "Mathematics Teacher",
-        qualification: "M.Sc Mathematics",
+        qualification: "M.Sc Mathematics, B.Ed",
         experience: "12+ Years",
         subjects: ["Mathematics", "Algebra"],
         image: "/images/faculty/Yasir.webp",

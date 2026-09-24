@@ -255,12 +255,12 @@ export default function TestimonialSection() {
                       className="
                         mt-8
                         flex-1
-                        line-clamp-5
                         font-serif
                         text-xl
                         italic
                         leading-9
                         text-slate-200
+                        break-normal
                       "
                     >
                       “{testimonial.message}”

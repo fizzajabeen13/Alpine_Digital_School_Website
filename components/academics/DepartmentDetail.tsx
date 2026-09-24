@@ -30,6 +30,7 @@ type Department = {
     image: string;
     email?: string;
     description?: string;
+    video?: string;
   }[];
   gallery: string[];
   activities: string[];
@@ -280,6 +281,7 @@ export default function DepartmentDetail({
           department={department.shortName}
           email={teacher.email}
           description={teacher.description}
+          video={teacher.video}
         />
       ))}
     </div>

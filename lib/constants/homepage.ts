@@ -88,8 +88,8 @@ export const statsData = [
 ];
 
 export const principalMessage = {
-  name: "Principal Alpine School",
-  designation: "Principal",
+  name: "M. Imran Younas",
+  designation: "Principal and Director",
   photo: "/images/faculty/Principal.webp",
   welcome:
     "Welcome to Alpine Digital School, a place where academic excellence, discipline, creativity, and modern learning come together to shape confident young minds.",
@@ -101,6 +101,8 @@ export const principalMessage = {
     label: "Learn More About Us",
     href: "/about",
   },
+  qualification: "M.Sc. (Mathematics), MBA (HRM)",
+  experience: "24+ Years",
 };
 
 export const testimonialsData = [
@@ -141,9 +143,9 @@ export const testimonialsData = [
     image: "/images/gallery/Review_4.webp",
   },
   {
-    name: "M. Hamid Sajid",
+    name: "M. Abdul Rehman",
     role: "Student",
-    className: "Class 7 Student",
+    className: "Class 10th Student",
     message:
       "Alpine School has helped me become more confident through competitions, activities, and guidance from my teachers. I enjoy learning in such a positive environment.",
     rating: 5,

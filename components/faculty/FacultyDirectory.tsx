@@ -377,8 +377,72 @@ export default function FacultyDirectory() {
       </div>
     </div>
 
+        {/* Video Introduction */}
+    {teacher.video && (
+      <div className="mt-8">
+        <a
+          href={teacher.video}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="
+            group/video
+            flex
+            w-full
+            items-center
+            justify-center
+            gap-3
+            rounded-2xl
+            bg-gradient-to-r
+            from-[#071A33]
+            to-blue-700
+            px-6
+            py-4
+            text-sm
+            font-bold
+            text-white
+            shadow-lg
+            shadow-blue-900/20
+            transition-all
+            duration-300
+            hover:-translate-y-1
+            hover:from-blue-900
+            hover:to-blue-600
+            hover:shadow-xl
+          "
+        >
+          {/* Play Icon */}
+          <span
+            className="
+              flex
+              h-9
+              w-9
+              items-center
+              justify-center
+              rounded-full
+              bg-white/15
+              ring-1
+              ring-white/20
+              transition-transform
+              duration-300
+              group-hover/video:scale-110
+            "
+          >
+            <svg
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              className="ml-0.5 h-4 w-4"
+            >
+              <path d="M8 5v14l11-7z" />
+            </svg>
+          </span>
+
+          <span>Watch Introduction</span>
+        </a>
+      </div>
+    )}
+
     {/* Bottom Divider */}
-    <div className="mt-auto pt-8">
+    <div className="mt-8">
       <div className="h-px w-full bg-gradient-to-r from-transparent via-slate-200 to-transparent" />
     </div>
 

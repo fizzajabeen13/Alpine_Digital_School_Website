@@ -19,6 +19,7 @@ export const principalData = {
   designation: "Principal & Director",
   badge: "Executive Principal",
   image: "/images/faculty/Principal.webp",
+  video: "https://www.youtube.com/watch?v=7BbYHDGDE9Q",
 
   qualification: "M.Sc. (Mathematics), MBA (HRM)",
   experience: "24+ Years",
@@ -95,6 +96,7 @@ export const coordinators = [
     name: "Iqra Munawar",
     designation: "High School Coordinator",
     image: "/images/faculty/Iqra.webp",
+    video: "/videos/faculty/teacher-name.mp4",
 
     qualification: "M.Phil. (Analytical Chemistry)",
     experience: "2 Years",
@@ -158,6 +160,7 @@ export const featuredDeveloper = {
   department: "IT Department",
 
   image: "/images/faculty/faculty-gallery/fizza-1.webp",
+  video: "https://www.youtube.com/watch?v=v6hsEI9fibY",
 
   qualification: [
     "BS Computer Science",
@@ -222,6 +225,7 @@ export type FacultyMember = {
   designation: string;
   department: string;
   image: string;
+  video?: string;
   qualification: string;
   experience: string;
   subjects: string[];
@@ -239,7 +243,8 @@ export const facultyDirectory: FacultyMember[] = [
     designation: "IT Teacher & AI Instructor",
     department: "IT, STEM and Robotics",
     image: "/images/faculty/Fizza.webp",
-    qualification: "BS Computer Science",
+    video: "https://www.youtube.com/watch?v=v6hsEI9fibY",
+    qualification: "BS Computer Science, BS Software Engineering",
     experience: "3 Years",
     subjects: [
       "Computer Science",
@@ -262,6 +267,7 @@ export const facultyDirectory: FacultyMember[] = [
     designation: "IT Developer & Teacher",
     department: "IT, STEM and Robotics",
     image: "/images/faculty/SairaAslam.webp",
+    video: "/videos/faculty/teacher-name.mp4",
     qualification: "BS Information Technology, B.Ed",
     experience: "4 Years",
     subjects: ["Computer", "Robotics, STEM"],
@@ -278,6 +284,7 @@ export const facultyDirectory: FacultyMember[] = [
     designation: "IT Developer and Teacher",
     department: "IT, STEM and Robotics",
     image: "/images/faculty/SairaZahid.webp",
+    video: "/videos/faculty/teacher-name.mp4",
     qualification: "ADP(CS), BS Information Technology",
     experience: "1.5 Years",
     subjects: ["STEM, Robotics, Digital Literacy"],
@@ -294,6 +301,7 @@ export const facultyDirectory: FacultyMember[] = [
     designation: "Science Teacher",
     department: "Science",
     image: "/images/faculty/Mahpara.webp",
+    video: "https://www.youtube.com/watch?v=shd8bMUzM84&feature=youtu.be",
     qualification: "BS Biotechnology",
     experience: "3 Years",
     subjects: ["Chemistry", "Biology"],
@@ -308,22 +316,6 @@ export const facultyDirectory: FacultyMember[] = [
 
   {
     id: 5,
-    name: "Maryam Fatima",
-    featured: false,
-    designation: "Science Teacher",
-    department: "Science",
-    image: "/images/faculty/Maryam.webp",
-    qualification: "M.Sc Botany",
-    experience: "1 Year",
-    subjects: ["Science"],
-    achievements: ["Science Educator"],
-    email: "bintehussain039@gmail.com",
-    description:
-      "I am a dedicated Science Teacher committed to making learning engaging, interactive, and meaningful. Through practical activities and concept-based teaching, I inspire curiosity, critical thinking, and a lifelong passion for science.",
-  },
-
-  {
-    id: 6,
     name: "Kaleem Amin",
     featured: false,
     designation: "Spoken English Trainer",
@@ -336,6 +328,22 @@ export const facultyDirectory: FacultyMember[] = [
     email: "kaleemamin5227@gmail.com",
     description:
       "With 10+ years of teaching and 2 years of management experience, I have empowered numerous students to achieve successful careers across diverse fields. My commitment to excellence and student-focused approach has earned consistent satisfaction from both learners and institutions, establishing a proven record of impactful, results-driven education and leadership.",
+  },
+
+  {
+    id: 6,
+    name: "Mehwish Khalid",
+    featured: false,
+    designation: "Spoken English Trainer",
+    department: "English",
+    image: "/images/faculty/Mehwish.webp",
+    qualification: "BS English Literature",
+    experience: "2 Years",
+    subjects: ["Spoken English", "English"],
+    achievements: ["Literary Appreciation"],
+    email: "Meshiimehwish178@gmail.com ",
+    description:
+      "I am Mehwish Khalid, a dedicated Spoken English Trainer with a BS in English Literature and two years of teaching experience. I am passionate about helping students develop confidence in speaking English through interactive and student-centered learning. My teaching approach emphasizes communication, critical thinking, and practical language use.",
   },
 
   {
@@ -354,24 +362,23 @@ export const facultyDirectory: FacultyMember[] = [
       "I am passionate about helping students develop strong communication, reading, and writing skills. Through engaging lessons, I foster creativity, critical thinking, and a lifelong appreciation for the English language.",
   },
 
-  
   {
     id: 8,
-    name: "Mehwish Khalid",
+    name: "Javeria",
     featured: false,
-    designation: "Spoken English Trainer",
+    designation: "English Teacher",
     department: "English",
-    image: "/images/faculty/Mehwish.webp",
-    qualification: "BS English Literature",
-    experience: "2 Years",
-    subjects: ["Spoken English", "English"],
-    achievements: ["Literary Appreciation"],
-    email: "Meshiimehwish178@gmail.com ",
+    image: "/images/faculty/Javeria.webp",
+    qualification: "M.A English, B.Ed",
+    experience: "1 Year",
+    subjects: ["English"],
+    achievements: ["English Educator"],
+    email: "bintehussain039@gmail.com",
     description:
-      "I am Mehwish Khalid, a dedicated Spoken English Trainer with a BS in English Literature and two years of teaching experience. I am passionate about helping students develop confidence in speaking English through interactive and student-centered learning. My teaching approach emphasizes communication, critical thinking, and practical language use.",
+      "I am a dedicated English Teacher committed to making learning engaging, interactive, and meaningful. Through practical activities and concept-based teaching, I inspire curiosity, critical thinking, and a lifelong passion for the English language.",
   },
 
-    {
+  {
     id: 9,
     name: "Yasir Ali",
     featured: false,
@@ -389,21 +396,6 @@ export const facultyDirectory: FacultyMember[] = [
 
   {
     id: 10,
-    name: "Rashida Bashir",
-    featured: false,
-    designation: "Mathematics Teacher",
-    department: "Mathematics",
-    image: "/images/faculty/Rashida.webp",
-    qualification: "M.Phill Mathematics",
-    experience: "2 Years",
-    subjects: ["Mathematics"],
-    achievements: ["Practical Mathematics"],
-    email: "bashirrashida597@gmail.com",
-    description:
-      "I am a dedicated Mathematics Teacher committed to making mathematical concepts simple, engaging, and practical. My goal is to develop logical thinking, problem-solving skills, and confidence in every student.",
-  },
-  {
-    id: 11,
     name: "Faiza Muneer",
     featured: false,
     designation: "Islamic Studies Teacher",
@@ -419,7 +411,7 @@ export const facultyDirectory: FacultyMember[] = [
   },
 
   {
-    id: 12,
+    id: 11,
     name: "Aqsa Mehboob",
     featured: false,
     designation: "Urdu Teacher",
@@ -435,7 +427,7 @@ export const facultyDirectory: FacultyMember[] = [
   },
 
   {
-    id: 13,
+    id: 12,
     name: "Samina Umar Din",
     featured: false,
     designation: "Sports Trainer",
@@ -451,7 +443,7 @@ export const facultyDirectory: FacultyMember[] = [
   },
 
   {
-    id: 14,
+    id: 13,
     name: "Nazish Khalid",
     featured: false,
     designation: "Pre-School Teacher",
@@ -467,7 +459,7 @@ export const facultyDirectory: FacultyMember[] = [
   },
 
   {
-    id: 15,
+    id: 14,
     name: "Memoona Hussain",
     featured: false,
     designation: "Pre-School Teacher",
@@ -483,13 +475,13 @@ export const facultyDirectory: FacultyMember[] = [
   },
 
   {
-    id: 16,
+    id: 15,
     name: "Uzma Amin",
     featured: false,
     designation: "Pre-School Teacher",
     department: "Pre-School",
     image: "/images/faculty/Uzma.webp",
-    qualification: "F.A",
+    qualification: "B.A",
     experience: "1 Year",
     subjects: ["Phonics"],
     achievements: ["Foundational Skills"],
@@ -499,7 +491,7 @@ export const facultyDirectory: FacultyMember[] = [
   },
 
   {
-    id: 17,
+    id: 16,
     name: "Tehmeena Naz",
     featured: false,
     designation: "Pre-School Teacher",
@@ -515,13 +507,13 @@ export const facultyDirectory: FacultyMember[] = [
   },
 
   {
-    id: 18,
+    id: 17,
     name: "Shazia Yousaf",
     featured: false,
     designation: "Pre-School Teacher",
     department: "Pre-School",
     image: "/images/faculty/Shazia.webp",
-    qualification: "F.A",
+    qualification: "B.A",
     experience: "1 Year",
     subjects: ["Pre-Writing Skills"],
     achievements: ["Cognitive Growth"],
@@ -531,7 +523,7 @@ export const facultyDirectory: FacultyMember[] = [
   },
 
   {
-    id: 19,
+    id: 18,
     name: "Ayesha Sarwar",
     featured: false,
     designation: "Pre-School Teacher",
@@ -547,7 +539,7 @@ export const facultyDirectory: FacultyMember[] = [
   },
 
   {
-    id: 20,
+    id: 19,
     name: "Eman Fatima",
     featured: false,
     designation: "Pre-School Teacher",
@@ -563,23 +555,7 @@ export const facultyDirectory: FacultyMember[] = [
   },
 
   {
-    id: 21,
-    name: "Ume Habiba",
-    featured: false,
-    designation: "Pre-School Teacher",
-    department: "Pre-School",
-    image: "/images/faculty/Habiba.webp",
-    qualification: "BS English",
-    experience: "1 Year",
-    subjects: ["Handwriting Skills"],
-    achievements: ["Skill Building"],
-    email: "rashid22md@gmail.com",
-    description:
-      "I help young learners build essential skills through engaging activities that promote confidence, communication, and creativity. Every child is encouraged to learn, discover, and thrive.",
-  },
-
-  {
-    id: 22,
+    id: 20,
     name: "Laiba Bibi",
     featured: false,
     designation: "Pre-School Teacher",
@@ -595,7 +571,7 @@ export const facultyDirectory: FacultyMember[] = [
   },
 
   {
-    id: 23,
+    id: 21,
     name: "Rimsha Khalid",
     featured: false,
     designation: "Pre-School Teacher",
@@ -608,6 +584,54 @@ export const facultyDirectory: FacultyMember[] = [
     email: "Khalidsumia289@gmail.com",
     description:
       "I am a passionate Preschool Teacher dedicated to creating a safe, joyful, and engaging learning environment. Through play-based and interactive activities, I help young learners build confidence, creativity, and a strong foundation for lifelong learning",
+  },
+
+  {
+    id: 22,
+    name: "Areeba Tahir",
+    featured: false,
+    designation: "Pre-School Teacher",
+    department: "Pre-School",
+    image: "/images/faculty/AreebaTahir.webp",
+    qualification: "BSCS",
+    experience: "1 Year",
+    subjects: ["Computer Science"],
+    achievements: ["Cultivating Curiosity"],
+    email: "malikkkahmaddd@gmail.com",
+    description:
+      "I am Areeba Tahir, a dedicated Pre-School Teacher with a passion for nurturing young minds. With a background in Computer Science (BSCS), I bring creativity and innovation to the classroom, fostering curiosity, exploration, and a love for learning in every child.",
+  },
+
+  {
+    id: 23,
+    name: "Maryam Tasawar",
+    featured: false,
+    designation: "Pre-School Teacher",
+    department: "Pre-School",
+    image: "/images/faculty/MaryamTasawar.webp",
+    qualification: "Bachelor of Arts",
+    experience: "1.5 Years",
+    subjects: ["English"],
+    achievements: ["Discovery Learning"],
+    email: "marryamrajpoot33@gmail.com",
+    description:
+      "I am Maryam Tasawar, a dedicated Pre-School Teacher with a passion for nurturing young minds. With a background in Bachelor of Arts, I bring creativity and innovation to the classroom, fostering curiosity, exploration, and a love for learning in every child.",
+  },
+
+  {
+    id: 24,
+    name: "Maryam Shabbir",
+    featured: false,
+    designation: "Pre-School Teacher",
+    department: "Pre-School",
+    image: "/images/faculty/MaryamShabbir.webp",
+    qualification: "BSCS",
+    experience: "1 Year",
+    subjects: ["Computer Science"],
+    achievements: ["Foundational Literacy"],
+    email: "maryamshabbir2097@gmail.com",
+    description:
+      "I am Maryam Shabbir, a dedicated Pre-School Teacher with a passion for nurturing young minds. With a background in Computer Science (BSCS), I bring creativity and innovation to the classroom, fostering curiosity, exploration, and a love for learning in every child.",
   },
 ];
 
@@ -630,12 +654,12 @@ export const departmentFilters = [
 export const developerStats = [
   {
     label: "Years Teaching",
-    value: 2,
+    value: 3,
     suffix: "+",
   },
   {
     label: "Years Development",
-    value: 3,
+    value: 5,
     suffix: "+",
   },
   {

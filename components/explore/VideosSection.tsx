@@ -82,176 +82,147 @@ export default function VideosSection() {
 
           {/* Featured Video */}
 
-          <RevealOnScroll delay={0.15}>
+<RevealOnScroll delay={0.15}>
+  <div
+    className="
+      mt-20
+      grid
+      gap-10
+      lg:grid-cols-[1.3fr_0.7fr]
+    "
+  >
 
-            <div
-              className="
-                mt-20
-                grid
-                gap-10
-                lg:grid-cols-[1.3fr_0.7fr]
-              "
-            >
+    <button
+      onClick={() => setActiveVideo(featuredVideo)}
+      className="
+        group
+        relative
+        h-[520px]
+        overflow-hidden
+        rounded-[2.5rem]
+        text-left
+        shadow-2xl
+      "
+    >
 
+      <Image
+        src={featuredVideo.thumbnail}
+        alt={featuredVideo.title}
+        fill
+        className="
+          object-cover
+          transition
+          duration-700
+          group-hover:scale-110
+        "
+      />
 
-              <button
-                onClick={() =>
-                  setActiveVideo(featuredVideo)
-                }
-                className="
-                  group
-                  relative
-                  h-[520px]
-                  overflow-hidden
-                  rounded-[2.5rem]
-                  text-left
-                  shadow-2xl
-                "
-              >
+      <div
+        className="
+          absolute
+          inset-0
+          bg-gradient-to-t
+          from-[#071A33]
+          via-[#071A33]/20
+          to-transparent
+        "
+      />
 
-                <Image
-                  src={featuredVideo.thumbnail}
-                  alt={featuredVideo.title}
-                  fill
-                  className="
-                    object-cover
-                    transition
-                    duration-700
-                    group-hover:scale-110
-                  "
-                />
+      <div
+        className="
+          absolute
+          inset-0
+          flex
+          items-center
+          justify-center
+        "
+      >
+        <div
+          className="
+            flex
+            h-24
+            w-24
+            items-center
+            justify-center
+            rounded-full
+            bg-white/20
+            text-white
+            backdrop-blur-md
+            transition
+            duration-500
+            group-hover:scale-110
+          "
+        >
+          <Play
+            size={42}
+            fill="white"
+          />
+        </div>
+      </div>
 
+      {/* Featured Labels */}
 
-                <div
-                  className="
-                    absolute
-                    inset-0
-                    bg-gradient-to-t
-                    from-[#071A33]
-                    via-[#071A33]/20
-                    to-transparent
-                  "
-                />
+      <div
+        className="
+          absolute
+          left-8
+          top-8
+        "
+      >
+        <Badge variant="secondary">
+          Featured Film
+        </Badge>
+      </div>
 
+      <div
+        className="
+          absolute
+          bottom-8
+          left-8
+          right-8
+        "
+      >
+        <h2
+          className="
+            text-4xl
+            font-black
+            leading-tight
+            text-white
+            md:text-5xl
+          "
+        >
+          {featuredVideo.title}
+        </h2>
 
-                <div
-                  className="
-                    absolute
-                    inset-0
-                    flex
-                    items-center
-                    justify-center
-                  "
-                >
+        <p
+          className="
+            mt-4
+            max-w-2xl
+            text-base
+            leading-8
+            text-slate-200
+          "
+        >
+          {featuredVideo.description}
+        </p>
 
-                  <div
-                    className="
-                      flex
-                      h-24
-                      w-24
-                      items-center
-                      justify-center
-                      rounded-full
-                      bg-white/20
-                      text-white
-                      backdrop-blur-md
-                      transition
-                      duration-500
-                      group-hover:scale-110
-                    "
-                  >
+        <div
+          className="
+            mt-6
+            flex
+            items-center
+            gap-3
+            text-sm
+            font-bold
+            text-yellow-400
+          "
+        >
+          <Clock size={16} />
+          {featuredVideo.duration}
+        </div>
+      </div>
 
-                    <Play
-                      size={42}
-                      fill="white"
-                    />
-
-                  </div>
-
-                </div>
-                                {/* Featured Labels */}
-
-                <div
-                  className="
-                    absolute
-                    left-8
-                    top-8
-                  "
-                >
-
-                  <Badge variant="secondary">
-                    Featured Film
-                  </Badge>
-
-                </div>
-
-
-
-                <div
-                  className="
-                    absolute
-                    bottom-8
-                    left-8
-                    right-8
-                  "
-                >
-
-
-                  <h2
-                    className="
-                      text-4xl
-                      font-black
-                      leading-tight
-                      text-white
-                      md:text-5xl
-                    "
-                  >
-                    {featuredVideo.title}
-                  </h2>
-
-
-
-                  <p
-                    className="
-                      mt-4
-                      max-w-2xl
-                      text-base
-                      leading-8
-                      text-slate-200
-                    "
-                  >
-                    {featuredVideo.description}
-                  </p>
-
-
-
-                  <div
-                    className="
-                      mt-6
-                      flex
-                      items-center
-                      gap-3
-                      text-sm
-                      font-bold
-                      text-yellow-400
-                    "
-                  >
-
-                    <Clock size={16} />
-
-                    {featuredVideo.duration}
-
-                  </div>
-
-
-
-                </div>
-
-
-              </button>
-
-
-
+    </button>
 
               {/* Side Information */}
 
@@ -363,7 +334,7 @@ export default function VideosSection() {
 
 
           </RevealOnScroll>
-                    {/* ====================================================== */}
+          {/* ====================================================== */}
           {/* Video Archive */}
           {/* ====================================================== */}
 
@@ -546,7 +517,7 @@ export default function VideosSection() {
 
 
                     </button>
-                                        {/* Card Content */}
+                    {/* Card Content */}
 
                     <div className="p-7">
 
@@ -711,7 +682,7 @@ export default function VideosSection() {
 
 
                 </div>
-                                <div
+                  <div
                   className="
                     flex
                     justify-start
@@ -795,91 +766,72 @@ export default function VideosSection() {
 
 
       {activeVideo && (
+  <div
+    className="
+      fixed
+      inset-0
+      z-[999]
+      flex
+      items-center
+      justify-center
+      bg-black/90
+      p-6
+      backdrop-blur-sm
+    "
+  >
+    <div
+      className="
+        relative
+        w-full
+        max-w-6xl
+        overflow-hidden
+        rounded-[2rem]
+        bg-black
+        shadow-2xl
+      "
+    >
+      {/* Close Button */}
 
-        <div
-          className="
-            fixed
-            inset-0
-            z-[999]
-            flex
-            items-center
-            justify-center
-            bg-black/90
-            p-6
-            backdrop-blur-sm
-          "
-        >
+      <button
+        onClick={() => setActiveVideo(null)}
+        className="
+          absolute
+          right-5
+          top-5
+          z-20
+          flex
+          h-12
+          w-12
+          items-center
+          justify-center
+          rounded-full
+          bg-white
+          text-[#071A33]
+          transition
+          hover:scale-110
+        "
+        aria-label="Close video"
+      >
+        <X size={22} />
+      </button>
 
+      {/* YouTube Video */}
 
-          <div
-            className="
-              relative
-              w-full
-              max-w-6xl
-              overflow-hidden
-              rounded-[2rem]
-              bg-black
-              shadow-2xl
-            "
-          >
-
-
-            <button
-              onClick={() =>
-                setActiveVideo(null)
-              }
-              className="
-                absolute
-                right-5
-                top-5
-                z-20
-                flex
-                h-12
-                w-12
-                items-center
-                justify-center
-                rounded-full
-                bg-white
-                text-[#071A33]
-                transition
-                hover:scale-110
-              "
-              aria-label="Close video"
-            >
-
-              <X size={22}/>
-
-
-            </button>
-
-
-
-            <video
-              controls
-              autoPlay
-              className="
-                w-full
-                max-h-[80vh]
-              "
-            >
-
-              <source
-                src={activeVideo.video}
-                type="video/mp4"
-              />
-
-            </video>
-
-
-
-          </div>
-
-
-
-        </div>
-
-
-      )}
+      <div className="aspect-video w-full">
+        <iframe
+          className="h-full w-full"
+          src={`${activeVideo.video.replace(
+            "watch?v=",
+            "embed/"
+          )}?autoplay=1`}
+          title={activeVideo.title}
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowFullScreen
+        />
+      </div>
+    </div>
+  </div>
+)}
 
 
 

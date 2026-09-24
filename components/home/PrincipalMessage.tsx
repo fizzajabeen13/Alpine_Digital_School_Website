@@ -1,5 +1,9 @@
 import Image from "next/image";
-import { Quote } from "lucide-react";
+import {
+  Quote,
+  GraduationCap,
+  BriefcaseBusiness,
+} from "lucide-react";
 
 import RevealOnScroll from "@/components/animations/RevealOnScroll";
 import Button from "@/components/ui/Button";
@@ -18,130 +22,347 @@ export default function PrincipalMessage() {
 
         <div className="grid items-center gap-20 lg:grid-cols-[0.9fr_1.1fr]">
 
+{/* ====================================================== */}
+{/* Portrait Section */}
+{/* ====================================================== */}
 
-          {/* ====================================================== */}
-          {/* Portrait Section */}
-          {/* ====================================================== */}
+<RevealOnScroll>
+  <div className="relative mx-auto max-w-md">
 
-          <RevealOnScroll>
-            <div className="relative mx-auto max-w-md">
+    {/* Vertical Label */}
 
-              {/* Vertical Label */}
+    <div
+      className="
+        absolute
+        -left-16
+        top-24
+        hidden
+        -rotate-90
+        text-xs
+        font-bold
+        uppercase
+        tracking-[0.6em]
+        text-slate-400
+        lg:block
+      "
+    >
+      Principal Message
+    </div>
 
-              <div
+
+    {/* ====================================================== */}
+    {/* Main Portrait Frame */}
+    {/* ====================================================== */}
+
+    <div className="relative">
+
+      {/* Gold Offset Frame */}
+
+      <div
+        className="
+          absolute
+          -right-6
+          -top-6
+          h-full
+          w-full
+          rounded-[28px]
+          border
+          border-yellow-600/30
+        "
+      />
+
+
+      {/* ====================================================== */}
+      {/* Image Frame */}
+      {/* ====================================================== */}
+
+      <div
+        className="
+          relative
+          z-10
+          h-[620px]
+          overflow-hidden
+          rounded-[28px]
+          bg-slate-200
+          shadow-[0_30px_70px_rgba(15,23,42,0.20)]
+        "
+      >
+
+        <Image
+          src={principalMessage.photo}
+          alt={principalMessage.name}
+          fill
+          priority
+          className="
+            object-cover
+            object-top
+            transition
+            duration-700
+            hover:scale-105
+          "
+        />
+
+        {/* Elegant Overlay */}
+
+        <div
+          className="
+            absolute
+            inset-0
+            bg-gradient-to-t
+            from-[#071A33]/85
+            via-[#071A33]/10
+            to-transparent
+          "
+        />
+
+
+        {/* ====================================================== */}
+        {/* Name Card */}
+        {/* ====================================================== */}
+
+        <div
+          className="
+            absolute
+            bottom-6
+            left-6
+            right-6
+            z-20
+            rounded-[28px]
+            border
+            border-white/20
+            bg-white/10
+            p-6
+            shadow-2xl
+            backdrop-blur-xl
+          "
+        >
+
+          <p
+            className="
+              text-xs
+              font-bold
+              uppercase
+              tracking-[0.3em]
+              text-yellow-400
+            "
+          >
+            Leadership
+          </p>
+
+          <h3
+            className="
+              mt-3
+              text-3xl
+              font-black
+              tracking-tight
+              text-white
+            "
+          >
+            {principalMessage.name}
+          </h3>
+
+          <p className="mt-2 text-sm font-medium text-blue-100">
+            {principalMessage.designation}
+          </p>
+
+        </div>
+
+      </div>
+
+
+      {/* ====================================================== */}
+      {/* Qualification + Experience Frame */}
+      {/* ====================================================== */}
+
+      <div
+        className="
+          relative
+          z-20
+          mt-8
+          space-y-4
+          rounded-[30px]
+          border
+          border-yellow-600/20
+          bg-[#faf9f6]
+          p-3
+          shadow-[0_20px_50px_rgba(15,23,42,0.10)]
+        "
+      >
+
+        {/* Qualification */}
+
+        <div
+          className="
+            rounded-[22px]
+            border
+            border-slate-200
+            bg-white
+            p-5
+            shadow-sm
+            transition-all
+            duration-300
+            hover:-translate-y-1
+            hover:shadow-lg
+          "
+        >
+
+          <div className="flex items-start gap-4">
+
+            <div
+              className="
+                flex
+                h-12
+                w-12
+                shrink-0
+                items-center
+                justify-center
+                rounded-2xl
+                bg-yellow-50
+                text-yellow-700
+              "
+            >
+              <GraduationCap size={21} />
+            </div>
+
+            <div className="min-w-0 flex-1">
+
+              <p
                 className="
-                  absolute
-                  -left-16
-                  top-24
-                  hidden
-                  -rotate-90
-                  text-xs
+                  text-[11px]
                   font-bold
                   uppercase
-                  tracking-[0.6em]
+                  tracking-[0.25em]
                   text-slate-400
-                  lg:block
                 "
               >
-                Principal Message
-              </div>
+                Qualification
+              </p>
 
-
-              {/* Gold Frame */}
-
-              <div
+              <p
                 className="
-                  absolute
-                  -right-6
-                  -top-6
-                  h-full
-                  w-full
-                  rounded-[24px]
-                  border
-                  border-yellow-600/30
-                "
-              />
-
-
-              {/* Image */}
-
-              <div
-                className="
-                  relative
-                  h-[620px]
-                  overflow-hidden
-                  rounded-[24px]
-                  bg-slate-200
-                  shadow-2xl
+                  mt-2
+                  text-base
+                  font-bold
+                  leading-7
+                  text-[#071A33]
                 "
               >
-                <Image
-                  src={principalMessage.photo}
-                  alt={principalMessage.name}
-                  fill
-                  className="
-                    object-cover
-                    transition
-                    duration-700
-                    hover:scale-105
-                  "
-                />
-
-                {/* Bottom Overlay */}
-                
-                <div
-                  className="
-                    absolute
-                    inset-x-0
-                    bottom-0
-                    bg-gradient-to-t
-                    from-[#071A33]/80
-                    via-transparent
-                    to-transparent
-                    p-8
-                    pt-32
-                  "
-                >
-                  <p className="text-sm uppercase tracking-[0.4em] text-yellow-400">
-                    Leadership
-                  </p>
-
-                  <h3 className="mt-3 text-3xl font-black text-white">
-                    {principalMessage.name}
-                  </h3>
-
-                  <p className="mt-1 text-slate-200">
-                    {principalMessage.designation}
-                  </p>
-                </div>
-              </div>
-                            {/* Quote Badge */}
-
-              <div
-                className="
-                  absolute
-                  -bottom-8
-                  -right-8
-                  flex
-                  h-24
-                  w-24
-                  items-center
-                  justify-center
-                  rounded-full
-                  bg-[#071A33]
-                  text-white
-                  shadow-2xl
-                "
-              >
-                <Quote
-                  size={42}
-                  strokeWidth={1.5}
-                  className="text-yellow-500"
-                />
-              </div>
+                {principalMessage.qualification}
+              </p>
 
             </div>
-          </RevealOnScroll>
+
+          </div>
+
+        </div>
+
+
+        {/* Experience */}
+
+        <div
+          className="
+            rounded-[22px]
+            border
+            border-slate-200
+            bg-white
+            p-5
+            shadow-sm
+            transition-all
+            duration-300
+            hover:-translate-y-1
+            hover:shadow-lg
+          "
+        >
+
+          <div className="flex items-start gap-4">
+
+            <div
+              className="
+                flex
+                h-12
+                w-12
+                shrink-0
+                items-center
+                justify-center
+                rounded-2xl
+                bg-blue-50
+                text-blue-800
+              "
+            >
+              <BriefcaseBusiness size={20} />
+            </div>
+
+            <div className="min-w-0 flex-1">
+
+              <p
+                className="
+                  text-[11px]
+                  font-bold
+                  uppercase
+                  tracking-[0.25em]
+                  text-slate-400
+                "
+              >
+                Experience
+              </p>
+
+              <p
+                className="
+                  mt-2
+                  text-base
+                  font-bold
+                  leading-7
+                  text-[#071A33]
+                "
+              >
+                {principalMessage.experience}
+              </p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+      {/* ====================================================== */}
+      {/* Quote Badge */}
+      {/* ====================================================== */}
+
+      <div
+        className="
+          absolute
+          -bottom-8
+          -right-10
+          z-50
+          flex
+          h-24
+          w-24
+          items-center
+          justify-center
+          rounded-full
+          border-4
+          border-[#faf9f6]
+          bg-[#071A33]
+          text-white
+          shadow-[0_20px_40px_rgba(7,26,51,0.30)]
+        "
+      >
+
+        <Quote
+          size={40}
+          strokeWidth={1.5}
+          className="text-yellow-500"
+        />
+
+      </div>
+
+    </div>
+
+  </div>
+</RevealOnScroll>
 
 
           {/* ====================================================== */}
@@ -149,8 +370,8 @@ export default function PrincipalMessage() {
           {/* ====================================================== */}
 
           <RevealOnScroll delay={0.15}>
-            <div className="max-w-2xl">
 
+            <div className="max-w-2xl">
 
               {/* Eyebrow */}
 
@@ -215,6 +436,7 @@ export default function PrincipalMessage() {
               {/* Main Quote */}
 
               <div className="mt-10">
+
                 <p
                   className="
                     font-serif
@@ -226,8 +448,11 @@ export default function PrincipalMessage() {
                 >
                   “{principalMessage.quote}”
                 </p>
+
               </div>
-                            {/* ====================================================== */}
+
+
+              {/* ====================================================== */}
               {/* Vision Statement */}
               {/* ====================================================== */}
 
@@ -239,6 +464,7 @@ export default function PrincipalMessage() {
                   pl-8
                 "
               >
+
                 <p
                   className="
                     text-base
@@ -248,6 +474,7 @@ export default function PrincipalMessage() {
                 >
                   {principalMessage.vision}
                 </p>
+
               </div>
 
 
@@ -269,7 +496,6 @@ export default function PrincipalMessage() {
                     {principalMessage.name}
                   </h3>
 
-
                   <p
                     className="
                       mt-2
@@ -282,7 +508,6 @@ export default function PrincipalMessage() {
                   >
                     {principalMessage.designation}
                   </p>
-
 
                   {/* Signature Line */}
 
@@ -326,6 +551,7 @@ export default function PrincipalMessage() {
                     lg:flex
                   "
                 >
+
                   <span
                     className="
                       text-xs
@@ -338,22 +564,28 @@ export default function PrincipalMessage() {
                   >
                     Since
                     <br />
-                    Excellence
+                    2018
                   </span>
+
                 </div>
 
               </div>
+
+
               {/* ====================================================== */}
               {/* CTA */}
               {/* ====================================================== */}
 
               <div className="mt-12">
+
                 <Button href={principalMessage.cta.href}>
                   {principalMessage.cta.label}
                 </Button>
+
               </div>
 
             </div>
+
           </RevealOnScroll>
 
         </div>

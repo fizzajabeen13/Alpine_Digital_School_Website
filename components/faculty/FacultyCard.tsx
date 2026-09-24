@@ -6,6 +6,7 @@ type FacultyCardProps = {
   name: string;
   designation: string;
   qualification: string;
+  video?: string;
   experience?: string;
   subjects?: string[];
   image?: string;
@@ -14,11 +15,13 @@ type FacultyCardProps = {
   email?: string;
   description?: string;
 };
+  
 
 export default function FacultyCard({
   name,
   designation,
   qualification,
+  video,
   experience,
   subjects = [],
   image = "/images/faculty/placeholder.jpg",
@@ -92,29 +95,61 @@ export default function FacultyCard({
   </p>
 )}
 
-        {/* Fixed space for subjects */}
-        <div className="mt-5 min-h-[56px]">
-          {subjects.length > 0 && (
-            <>
-              <p className="mb-2 font-semibold text-slate-800">
-                Subjects
-              </p>
+{/* Subjects */}
+<div className="mt-5 min-h-[56px]">
+  {subjects.length > 0 && (
+    <>
+      <p className="mb-2 font-semibold text-slate-800">
+        Subjects
+      </p>
 
-              <div className="flex flex-wrap gap-2">
-                {subjects.map((subject) => (
-                  <span
-                    key={subject}
-                    className="rounded-full border border-blue-200 bg-blue-50 px-3 py-1 text-xs font-medium text-blue-800"
-                  >
-                    {subject}
-                  </span>
-                ))}
-              </div>
-            </>
-          )}
-        </div>
-        
-        <div className="mt-auto"></div>
+      <div className="flex flex-wrap gap-2">
+        {subjects.map((subject) => (
+          <span
+            key={subject}
+            className="rounded-full border border-blue-200 bg-blue-50 px-3 py-1 text-xs font-medium text-blue-800"
+          >
+            {subject}
+          </span>
+        ))}
+      </div>
+    </>
+  )}
+</div>
+
+{/* Video Button */}
+{video && (
+  <div className="mt-6">
+    <a
+      href={video}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="
+        flex
+        w-full
+        items-center
+        justify-center
+        gap-2
+        rounded-xl
+        bg-[#071A33]
+        px-5
+        py-3
+        text-sm
+        font-bold
+        text-white
+        transition-all
+        duration-300
+        hover:-translate-y-0.5
+        hover:bg-blue-800
+        hover:shadow-lg
+      "
+    >
+      ▶ Watch Introduction
+    </a>
+  </div>
+)}
+
+<div className="mt-auto" />
 
       </div>
     </Card>

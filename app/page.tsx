@@ -232,9 +232,6 @@ export default function HomePage() {
 
             </div>
 
-
-
-
             {/* Stats */}
 
             <div

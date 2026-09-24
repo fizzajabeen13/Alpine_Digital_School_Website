@@ -88,8 +88,6 @@ export default function RootLayout({
       <body className={`${inter.variable} ${playfair.variable} antialiased`}>
         <SiteLayout>{children}</SiteLayout>
         <Toaster position="top-right" />
-      <SiteLayout>{children}</SiteLayout>
-        <Toaster position="top-right" />
         <ChatWidget />
         <StructuredData />
       </body>

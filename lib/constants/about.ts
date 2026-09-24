@@ -249,14 +249,16 @@ export const schoolLifeData = [
 ];
 
 export const aboutPrincipalMessage = {
-  name: "Principal Alpine School",
-  designation: "Principal",
+  name: "M. Imran Younas",
+  designation: "Principal and Director",
   photo: "/images/faculty/Principal.webp",
   message:
     "At Alpine Digital School, we believe that education must prepare students for both academic success and real life. Our goal is to provide a balanced environment where students learn discipline, confidence, creativity, and responsibility along with strong academics.",
   vision:
     "We are committed to building a school culture where every child feels valued, guided, and encouraged to achieve their potential.",
-  signature: "Principal Alpine School",
+  signature: "Principal and Director, Alpine Digital School",
+  qualification: "M.Sc. (Mathematics), MBA (HRM)",
+  experience: "24+ Years",
 };
 
 export const managementMessage = {

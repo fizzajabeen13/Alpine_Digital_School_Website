@@ -13,8 +13,10 @@ import {
 } from "lucide-react";
 
 import RevealOnScroll from "@/components/animations/RevealOnScroll";
+import { useState } from "react";
 
 export default function SchoolVideo() {
+const [isPlaying, setIsPlaying] = useState(false);
   return (
     <section className="relative overflow-hidden bg-gradient-to-br from-slate-950 via-slate-900 to-blue-950 py-28">
       {/* ================= Background ================= */}
@@ -164,81 +166,112 @@ export default function SchoolVideo() {
 
               {/* Video */}
 
-              <div className="relative aspect-video overflow-hidden">
-                <video
-                  className="h-full w-full object-cover"
-                  controls
-                  preload="metadata"
-                  poster="/images/gallery/Campus_Tour.webp"
-                >
-                  <source
-                    src="/videos/Campus_Tour.mp4"
-                    type="video/mp4"
-                  />
-                  Your browser does not support the video tag.
-                </video>
+<div className="relative aspect-video overflow-hidden">
+  {!isPlaying ? (
+    <button
+      type="button"
+      onClick={() => setIsPlaying(true)}
+      className="group relative block h-full w-full cursor-pointer"
+      aria-label="Play Campus Tour"
+    >
+      {/* Thumbnail */}
+      <img
+        src="/images/gallery/Campus_Tour.webp"
+        alt="Campus Tour"
+        className="
+          h-full
+          w-full
+          object-cover
+          transition-transform
+          duration-700
+          group-hover:scale-105
+        "
+      />
 
-                {/* Overlay */}
+      {/* Overlay */}
+      <div
+        className="
+          pointer-events-none
+          absolute
+          inset-0
+          bg-gradient-to-t
+          from-slate-950/70
+          via-transparent
+          to-transparent
+        "
+      />
 
-                <div
-                  className="
-                    pointer-events-none
-                    absolute
-                    inset-0
-                    bg-gradient-to-t
-                    from-slate-950/70
-                    via-transparent
-                    to-transparent
-                  "
-                />
+      {/* Hover Overlay */}
+      <div
+        className="
+          pointer-events-none
+          absolute
+          inset-0
+          bg-black/0
+          transition-colors
+          duration-300
+          group-hover:bg-black/20
+        "
+      />
 
-                {/* Floating Badge */}
+      {/* Floating Badge */}
+      <motion.div
+        whileHover={{ scale: 1.05 }}
+        className="
+          absolute
+          left-8
+          top-8
+          flex
+          items-center
+          gap-3
+          rounded-full
+          border
+          border-white/20
+          bg-black/45
+          px-5
+          py-3
+          backdrop-blur-xl
+        "
+      >
+        <div
+          className="
+            flex
+            h-12
+            w-12
+            items-center
+            justify-center
+            rounded-full
+            bg-gradient-to-r
+            from-sky-500
+            to-cyan-400
+            shadow-lg
+            shadow-cyan-500/20
+          "
+        >
+          <Play className="ml-1 h-5 w-5 fill-white text-white" />
+        </div>
 
-                <motion.div
-                  whileHover={{ scale: 1.05 }}
-                  className="
-                    absolute
-                    left-8
-                    top-8
-                    flex
-                    items-center
-                    gap-3
-                    rounded-full
-                    border
-                    border-white/20
-                    bg-black/45
-                    px-5
-                    py-3
-                    backdrop-blur-xl
-                  "
-                >
-                  <div
-                    className="
-                      flex
-                      h-12
-                      w-12
-                      items-center
-                      justify-center
-                      rounded-full
-                      bg-gradient-to-r
-                      from-sky-500
-                      to-cyan-400
-                    "
-                  >
-                    <Play className="ml-1 h-5 w-5 fill-white text-white" />
-                  </div>
+        <div>
+          <p className="text-xs uppercase tracking-[0.35em] text-slate-300">
+            Watch
+          </p>
 
-                  <div>
-                    <p className="text-xs uppercase tracking-[0.35em] text-slate-300">
-                      Watch
-                    </p>
-
-                    <p className="font-semibold text-white">
-                      Campus Tour
-                    </p>
-                  </div>
-                </motion.div>
-              </div>
+          <p className="font-semibold text-white">
+            Campus Tour
+          </p>
+        </div>
+      </motion.div>
+    </button>
+  ) : (
+    <iframe
+      className="h-full w-full"
+      src="https://www.youtube.com/embed/Y-NdQdkRfi0?autoplay=1"
+      title="Campus Tour"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowFullScreen
+    />
+  )}
+</div>
 
               {/* Bottom Content */}
 

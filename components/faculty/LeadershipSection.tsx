@@ -9,6 +9,7 @@ import {
   Quote,
   Sparkles,
   ArrowRight,
+  Play,
 } from "lucide-react";
 
 import RevealOnScroll from "@/components/animations/RevealOnScroll";
@@ -306,6 +307,52 @@ export default function LeadershipSection() {
                       )}
 
                     </div>
+
+                    {principalData.video && (
+  <a
+    href={principalData.video}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="
+      group
+      mt-10
+      inline-flex
+      items-center
+      gap-3
+      rounded-2xl
+      bg-gradient-to-r
+      from-blue-900
+      to-blue-700
+      px-7
+      py-4
+      text-sm
+      font-bold
+      text-white
+      shadow-lg
+      shadow-blue-900/20
+      transition-all
+      duration-300
+      hover:-translate-y-1
+      hover:from-blue-800
+      hover:to-sky-600
+      hover:shadow-xl
+    "
+  >
+    <span className="flex h-9 w-9 items-center justify-center rounded-full bg-white/15">
+      <Play
+        size={16}
+        className="fill-current transition-transform duration-300 group-hover:scale-110"
+      />
+    </span>
+
+    Watch Principal&apos;s Introduction
+
+    <ArrowRight
+      size={18}
+      className="transition-transform duration-300 group-hover:translate-x-1"
+    />
+  </a>
+)}
 
                   </div>
 
