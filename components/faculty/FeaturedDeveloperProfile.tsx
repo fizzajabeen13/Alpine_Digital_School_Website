@@ -306,7 +306,7 @@ export default function FeaturedDeveloperProfile() {
       className="mr-2 h-5 w-5 fill-current transition-transform duration-300 group-hover:scale-110"
     />
 
-    Watch Fizza's Introduction
+    Watch Fizza &apos; s Introduction
   </a>
 )}
 

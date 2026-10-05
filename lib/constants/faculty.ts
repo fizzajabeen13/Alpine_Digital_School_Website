@@ -96,7 +96,6 @@ export const coordinators = [
     name: "Iqra Munawar",
     designation: "High School Coordinator",
     image: "/images/faculty/Iqra.webp",
-    video: "/videos/faculty/teacher-name.mp4",
 
     qualification: "M.Phil. (Analytical Chemistry)",
     experience: "2 Years",
